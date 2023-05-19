@@ -1,0 +1,25 @@
+{
+  "name": "scrapi-daemon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redii/scrapi-daemon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/redii/scrapi-daemon/issues"
+  },
+  "homepage": "https://github.com/redii/scrapi-daemon#readme",
+  "dependencies": {
+    "@prisma/client": "^4.14.1",
+    "croner": "^6.0.3",
+    "got": "^12.6.0",
+    "prisma": "^4.14.1"
+  }
+}
