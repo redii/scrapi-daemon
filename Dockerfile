@@ -6,5 +6,5 @@ ENV FILES_PATH "/data/files"
 COPY . /app
 WORKDIR /app
 RUN npm install
-RUN npx prisma migrate deploy
-CMD node .
+RUN npx prisma generate
+CMD node index.mjs
